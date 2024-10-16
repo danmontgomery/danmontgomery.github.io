@@ -6,7 +6,7 @@
     <link href="/css/main.css" rel="stylesheet" />
     <title>{% if page.title %}{{ page.title }}{% else %}dmontgomery.net{% endif %}</title>
     {% if site.google_analytics and jekyll.environment == 'production' %}
-    {% include analytics.html %}
+    {% include _layouts/analytics.html %}
     {% endif %}
   </head>
   <body>
