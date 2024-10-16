@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimal-ui">
+    <link href="/css/main.css" rel="stylesheet" />
+    <title>{% if page.title %}{{ page.title }}{% else %}dmontgomery.net{% endif %}</title>
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+  </head>
+  <body>
+    <main>
+      {{ content }}
+    </main>
+  </body>
+  <script src="/js/e.js" defer></script>
+</html>

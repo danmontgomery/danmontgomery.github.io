@@ -1,0 +1,9 @@
+# Google Analytics
+google_analytics: G-NDJ5G1WD29
+
+defaults:
+-
+  scope:
+    path: ""
+  values:
+    layout: "default"
